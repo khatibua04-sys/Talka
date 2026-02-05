@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2024-02-05
+
+### Security
+- Updated Next.js from 14.2.35 to 15.0.8 (fixes remaining DoS vulnerability in React Server Components)
+- Updated React from 18.2.0 to 19.0.0 (compatibility with Next.js 15)
+- Updated React-DOM from 18.2.0 to 19.0.0
+- Updated @types/node from 20.11.5 to 22.10.0
+- Updated @types/react from 18.2.48 to 19.0.0
+- Updated @types/react-dom from 18.2.18 to 19.0.0
+- Updated TypeScript from 5.3.3 to 5.7.2
+- Updated ESLint from 8.56.0 to 8.57.0
+- Updated eslint-config-next from 14.2.35 to 15.0.8
+
 ## [1.0.1] - 2024-02-05
 
 ### Security
@@ -13,7 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated torch from 2.1.2 to 2.6.0 (fixes heap buffer overflow, use-after-free, and RCE vulnerabilities)
 - Updated torchaudio from 2.1.2 to 2.6.0
 - Updated axios from 1.6.5 to 1.12.0 (fixes DoS and SSRF vulnerabilities)
-- Updated next from 14.1.0 to 14.2.35 (fixes DoS, cache poisoning, and authorization bypass vulnerabilities)
+- Updated Next.js from 14.1.0 to 14.2.35 (partial fix for DoS, cache poisoning, and authorization bypass vulnerabilities)
 - Updated pydantic from 2.5.3 to 2.10.0
 - Updated pydantic-settings from 2.1.0 to 2.6.0
 - Updated uvicorn from 0.27.0 to 0.32.0

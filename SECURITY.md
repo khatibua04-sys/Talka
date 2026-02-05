@@ -9,9 +9,35 @@ We take security seriously and provide updates for the following versions:
 | 1.0.x   | :white_check_mark: |
 | < 1.0   | :x:                |
 
-## Recent Security Updates (v1.0.1)
+## Recent Security Updates (v1.0.2)
 
-The following vulnerabilities have been addressed in version 1.0.1:
+The following vulnerabilities have been addressed in version 1.0.2:
+
+### Frontend Dependencies
+
+1. **Next.js** (14.2.35 → 15.0.8)
+   - Fixed: HTTP request deserialization DoS in React Server Components
+   - Severity: High
+   - CVE: N/A
+   - **Note**: This is a major version upgrade to completely eliminate the DoS vulnerability
+
+2. **React** (18.2.0 → 19.0.0)
+   - Upgraded for compatibility with Next.js 15
+   - Security improvements and bug fixes
+   - Severity: N/A
+
+3. **React-DOM** (18.2.0 → 19.0.0)
+   - Upgraded for compatibility with React 19
+   - Severity: N/A
+
+4. **TypeScript** (5.3.3 → 5.7.2)
+   - Bug fixes and improvements
+   - Better type checking
+
+5. **ESLint** (8.56.0 → 8.57.0)
+   - Security and bug fixes
+
+## Previous Security Updates (v1.0.1)
 
 ### Backend Dependencies
 
@@ -34,7 +60,7 @@ The following vulnerabilities have been addressed in version 1.0.1:
    - Severity: Critical
    - CVE: N/A
 
-### Frontend Dependencies
+### Frontend Dependencies (v1.0.1)
 
 1. **axios** (1.6.5 → 1.12.0)
    - Fixed: DoS attack through lack of data size check
@@ -43,11 +69,9 @@ The following vulnerabilities have been addressed in version 1.0.1:
    - CVE: N/A
 
 2. **Next.js** (14.1.0 → 14.2.35)
-   - Fixed: HTTP request deserialization DoS
-   - Fixed: Authorization bypass vulnerability
    - Fixed: Cache poisoning vulnerability
-   - Fixed: SSRF in Server Actions
    - Fixed: Authorization bypass in middleware
+   - Fixed: SSRF in Server Actions
    - Severity: High
    - CVE: Multiple
 
@@ -247,4 +271,4 @@ We thank the security community for responsible disclosure and contributions to 
 ---
 
 Last Updated: 2024-02-05
-Version: 1.0.1
+Version: 1.0.2

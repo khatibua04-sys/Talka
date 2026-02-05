@@ -2,7 +2,7 @@
 
 A self-hosted Text-to-Speech (TTS) web platform powered by ChatTTS, featuring voice cloning, multi-language support, and full audio control.
 
-> **Latest Version: 1.0.1** - Security updates applied. All dependencies updated to patched versions. See [SECURITY.md](SECURITY.md) for details.
+> **Latest Version: 1.0.2** - All security vulnerabilities fixed. Next.js upgraded to 15.0.8, React to 19.0.0. See [SECURITY.md](SECURITY.md) for details.
 
 ## Features
 
@@ -25,8 +25,8 @@ A self-hosted Text-to-Speech (TTS) web platform powered by ChatTTS, featuring vo
 - JWT Authentication
 
 **Frontend:**
-- Next.js 14
-- React 18
+- Next.js 15
+- React 19
 - TypeScript
 - CSS Modules
 
