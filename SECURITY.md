@@ -9,9 +9,23 @@ We take security seriously and provide updates for the following versions:
 | 1.0.x   | :white_check_mark: |
 | < 1.0   | :x:                |
 
-## Recent Security Updates (v1.0.2)
+## Recent Security Updates (v1.0.3)
 
-The following vulnerabilities have been addressed in version 1.0.2:
+The following vulnerabilities have been addressed in version 1.0.3:
+
+### Frontend Dependencies
+
+1. **Next.js** (15.0.8 → 15.2.3)
+   - Fixed: Cache poisoning DoS vulnerability
+   - Fixed: Authorization bypass in middleware
+   - Severity: High
+   - CVE: N/A
+   - **Note**: Final patch to eliminate all known Next.js vulnerabilities
+
+2. **eslint-config-next** (15.0.8 → 15.2.3)
+   - Updated for compatibility with Next.js 15.2.3
+
+## Previous Security Updates (v1.0.2)
 
 ### Frontend Dependencies
 
@@ -19,7 +33,7 @@ The following vulnerabilities have been addressed in version 1.0.2:
    - Fixed: HTTP request deserialization DoS in React Server Components
    - Severity: High
    - CVE: N/A
-   - **Note**: This is a major version upgrade to completely eliminate the DoS vulnerability
+   - **Note**: This was a major version upgrade to completely eliminate the DoS vulnerability
 
 2. **React** (18.2.0 → 19.0.0)
    - Upgraded for compatibility with Next.js 15
@@ -271,4 +285,4 @@ We thank the security community for responsible disclosure and contributions to 
 ---
 
 Last Updated: 2024-02-05
-Version: 1.0.2
+Version: 1.0.3

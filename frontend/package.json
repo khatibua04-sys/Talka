@@ -1,6 +1,6 @@
 {
   "name": "talka-frontend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Talka Text-to-Speech Platform Frontend",
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.0.8",
+    "next": "15.2.3",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "axios": "1.12.0",
@@ -20,7 +20,7 @@
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
     "eslint": "8.57.0",
-    "eslint-config-next": "15.0.8",
+    "eslint-config-next": "15.2.3",
     "typescript": "5.7.2"
   }
 }
