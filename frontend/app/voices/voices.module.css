@@ -1,0 +1,120 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.info {
+  color: #666;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.checkbox input {
+  width: auto;
+  margin: 0;
+}
+
+.voiceList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.voiceItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.voiceItem:hover {
+  background: #f0f0f0;
+}
+
+.voiceInfo h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.25rem;
+}
+
+.voiceInfo p {
+  color: #666;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.voiceMeta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.75rem;
+  color: #999;
+}
+
+.public,
+.private {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.public {
+  color: #38a169;
+}
+
+.private {
+  color: #666;
+}
+
+.deleteBtn {
+  padding: 0.5rem 1rem;
+}
+
+.empty {
+  color: #999;
+  text-align: center;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .voiceItem {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
