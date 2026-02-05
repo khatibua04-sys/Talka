@@ -2,11 +2,26 @@
 
 This guide covers different deployment options for Talka.
 
+> **Looking to deploy to Vercel?** See [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md) for a complete guide to deploying the frontend to Vercel and backend to Railway/Render.
+
 ## Table of Contents
+- [Vercel Deployment (Recommended)](#vercel-deployment)
 - [Docker Deployment](#docker-deployment)
 - [Manual Deployment](#manual-deployment)
 - [Production Considerations](#production-considerations)
 - [Cloud Deployment](#cloud-deployment)
+
+## Vercel Deployment
+
+For quick cloud deployment with Vercel (frontend) and Railway/Render (backend):
+
+👉 **[Complete Vercel Deployment Guide](VERCEL_DEPLOYMENT.md)**
+
+Quick overview:
+1. Deploy backend to Railway or Render
+2. Deploy frontend to Vercel with one click
+3. Set `NEXT_PUBLIC_API_URL` environment variable
+4. Done! Your app is live
 
 ## Docker Deployment
 

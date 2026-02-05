@@ -4,6 +4,12 @@ A self-hosted Text-to-Speech (TTS) web platform powered by ChatTTS, featuring vo
 
 > **Latest Version: 1.0.4** - CRITICAL security update. Next.js upgraded to 15.5.10 to fix RCE and DoS vulnerabilities. See [SECURITY.md](SECURITY.md) for details.
 
+## Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/khatibua04-sys/Talka&root-directory=frontend&env=NEXT_PUBLIC_API_URL&envDescription=Backend%20API%20URL%20(must%20be%20deployed%20separately)&envLink=https://github.com/khatibua04-sys/Talka/blob/main/VERCEL_DEPLOYMENT.md)
+
+> **Note**: The frontend can be deployed to Vercel with one click. The backend must be deployed separately (Railway, Render, etc.). See [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md) for complete instructions.
+
 ## Features
 
 - 🎙️ **Voice Cloning**: Upload 1-5 minute voice samples to create custom voices
@@ -29,6 +35,20 @@ A self-hosted Text-to-Speech (TTS) web platform powered by ChatTTS, featuring vo
 - React 19
 - TypeScript
 - CSS Modules
+
+## Deployment Options
+
+### Cloud Deployment (Recommended for Production)
+
+- **Vercel** (Frontend) - [One-click deploy →](VERCEL_DEPLOYMENT.md)
+- **Railway/Render** (Backend) - Recommended Python hosting
+- See [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md) for complete cloud deployment guide
+
+### Self-Hosted / Local Development
+
+- **Docker** - Quick setup with docker-compose
+- **Manual** - Full control over deployment
+- See [DEPLOYMENT.md](DEPLOYMENT.md) for self-hosting guide
 
 ## Quick Start
 

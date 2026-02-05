@@ -1,0 +1,38 @@
+# Backend files (not deployed to Vercel)
+backend/
+docker-compose.yml
+*.sh
+*.bat
+
+# Development files
+.git/
+.github/
+*.log
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+
+# Documentation (optional - uncomment to exclude)
+# API_TESTING.md
+# CONTRIBUTING.md
+# VOICE_RECORDING_GUIDE.md
+
+# Environment files
+.env
+.env.local
+backend/.env
+
+# Build outputs
+frontend/.next/
+frontend/node_modules/
+frontend/out/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Media files
+uploads/
+outputs/
