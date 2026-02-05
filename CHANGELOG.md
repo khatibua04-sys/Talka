@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.4] - 2024-02-05
+
+### Security
+- **CRITICAL**: Updated Next.js from 15.2.3 to 15.5.10 (fixes multiple critical vulnerabilities)
+  - Fixed: HTTP request deserialization DoS in React Server Components
+  - Fixed: RCE vulnerability in React flight protocol
+  - Fixed: Multiple DoS vulnerabilities with Server Components
+- Updated eslint-config-next from 15.2.3 to 15.5.10
+- Updated ESLint from 8.57.0 to 9.17.0
+
 ## [1.0.3] - 2024-02-05
 
 ### Security

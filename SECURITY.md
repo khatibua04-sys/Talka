@@ -9,9 +9,28 @@ We take security seriously and provide updates for the following versions:
 | 1.0.x   | :white_check_mark: |
 | < 1.0   | :x:                |
 
-## Recent Security Updates (v1.0.3)
+## Recent Security Updates (v1.0.4) - CRITICAL
 
-The following vulnerabilities have been addressed in version 1.0.3:
+The following **CRITICAL** vulnerabilities have been addressed in version 1.0.4:
+
+### Frontend Dependencies
+
+1. **Next.js** (15.2.3 → 15.5.10)
+   - **CRITICAL**: Fixed RCE (Remote Code Execution) vulnerability in React flight protocol
+   - Fixed: HTTP request deserialization DoS in React Server Components
+   - Fixed: Multiple DoS vulnerabilities with Server Components
+   - Severity: Critical
+   - CVE: N/A
+   - **Note**: This update addresses critical security vulnerabilities including potential remote code execution
+
+2. **ESLint** (8.57.0 → 9.17.0)
+   - Major version upgrade with security improvements
+   - Severity: Medium
+
+3. **eslint-config-next** (15.2.3 → 15.5.10)
+   - Updated for compatibility with Next.js 15.5.10
+
+## Previous Security Updates (v1.0.3)
 
 ### Frontend Dependencies
 
@@ -285,4 +304,4 @@ We thank the security community for responsible disclosure and contributions to 
 ---
 
 Last Updated: 2024-02-05
-Version: 1.0.3
+Version: 1.0.4
