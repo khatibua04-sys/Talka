@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Talka - A simple web application",
   "scripts": {
-    "dev": "vercel dev",
-    "build": "echo 'Build complete'",
-    "start": "echo 'Starting application'"
+    "dev": "vercel dev"
   },
   "keywords": ["talka", "web"],
   "author": "",
