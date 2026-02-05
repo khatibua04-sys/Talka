@@ -1,0 +1,11 @@
+{
+  "name": "talka",
+  "version": "1.0.0",
+  "description": "Talka - A simple web application",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "keywords": ["talka", "web"],
+  "author": "",
+  "license": "ISC"
+}
