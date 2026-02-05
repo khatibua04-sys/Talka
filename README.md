@@ -2,6 +2,8 @@
 
 A self-hosted Text-to-Speech (TTS) web platform powered by ChatTTS, featuring voice cloning, multi-language support, and full audio control.
 
+> **Latest Version: 1.0.1** - Security updates applied. All dependencies updated to patched versions. See [SECURITY.md](SECURITY.md) for details.
+
 ## Features
 
 - 🎙️ **Voice Cloning**: Upload 1-5 minute voice samples to create custom voices
