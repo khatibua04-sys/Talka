@@ -52,16 +52,20 @@ export const authService = {
   },
 
   logout() {
-    localStorage.removeItem('token');
-    localStorage.removeItem('user');
-    window.location.href = '/login';
+    if (typeof window !== 'undefined') {
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
+      window.location.href = '/login';
+    }
   },
 
   isAuthenticated(): boolean {
+    if (typeof window === 'undefined') return false;
     return !!localStorage.getItem('token');
   },
 
   getStoredUser(): User | null {
+    if (typeof window === 'undefined') return null;
     const userStr = localStorage.getItem('user');
     return userStr ? JSON.parse(userStr) : null;
   },
