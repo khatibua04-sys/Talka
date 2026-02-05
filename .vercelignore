@@ -1,0 +1,9 @@
+# Version control
+.git/
+.gitignore
+
+# Documentation
+README.md
+
+# Node modules (if you want to exclude them from deployment)
+# node_modules/
